@@ -29,7 +29,7 @@ plot4 <- function(path, filename)
   total_time <- c(time_01, time_02)  
   total_time <- strptime(total_time, "%d/%m/%Y %H:%M:%S")
   
-  #Build plot in plot4.png
+  #Build plot in plot4.png (the default is 480x480)
   png(file = "plot4.png")
   
   #multiple plots

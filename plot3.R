@@ -20,7 +20,7 @@ plot3 <- function(path, filename)
   total_time <- c(time_01, time_02)  
   total_time <- strptime(total_time, "%d/%m/%Y %H:%M:%S")
   
-  #Build plot in plot2.png
+  #Build plot in plot3.png (the default is 480x480)
   png(file = "plot3.png")
   
   plot(total_time, total_met_1, type = "n", xlab = "", ylab = "Energy sub metering")

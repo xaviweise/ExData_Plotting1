@@ -18,7 +18,7 @@ plot2 <- function(path, filename)
   total_time <- c(time_01, time_02)  
   total_time <- strptime(total_time, "%d/%m/%Y %H:%M:%S")
   
-  #Build plot in plot2.png
+  #Build plot in plot2.png (the default is 480x480)
   png(file = "plot2.png")
   plot(total_time, total_active_pwr, type = "n", xlab = "", ylab = "Global Active Power (kilowatts)")
   lines(total_time, total_active_pwr)

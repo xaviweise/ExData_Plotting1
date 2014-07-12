@@ -11,7 +11,7 @@ plot1 <- function(path, filename)
   #Take Global Active Power for the two days
   total_active_pwr <- c(date_01$Global_active_power, date_02$Global_active_power)
   
-  #Build histogram in plot1.png
+  #Build histogram in plot1.png (the default is 480x480)
   png(file = "plot1.png")
   hist(total_active_pwr, xlab = "Global Active Power (kilowatts)", col = "red", main = "Global Active Power")
   dev.off()
