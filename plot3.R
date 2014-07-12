@@ -5,8 +5,8 @@ plot3 <- function(path, filename)
   fullfile = paste(fullfile, filename, sep = "")
   input <- read.table(fullfile, sep = ";", header = TRUE, na.strings = "?")
   
-  data_01 <- input[input$Date == "1/2/2007",]
-  data_02 <- input[input$Date == "2/2/2007",]
+  date_01 <- input[input$Date == "1/2/2007",]
+  date_02 <- input[input$Date == "2/2/2007",]
   
   #Take the three sub metering
   total_met_1 <- c(date_01$Sub_metering_1, date_02$Sub_metering_1)
