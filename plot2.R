@@ -23,6 +23,7 @@ plot2 <- function(path, filename)
   plot(total_time, total_active_pwr, type = "n", xlab = "", ylab = "Global Active Power (kilowatts)")
   lines(total_time, total_active_pwr)
   dev.off()
+
 }
 
 

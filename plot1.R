@@ -15,6 +15,7 @@ plot1 <- function(path, filename)
   png(file = "plot1.png")
   hist(total_active_pwr, xlab = "Global Active Power (kilowatts)", col = "red", main = "Global Active Power")
   dev.off()
+
 }
 
 
