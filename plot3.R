@@ -1,3 +1,6 @@
+# Plotting function 3. 
+# Inputs: path and filename with data set
+# Output: graph of the data using base plotting system in .png in working directory
 plot3 <- function(path, filename)
 {
   #Read data for the two dates
